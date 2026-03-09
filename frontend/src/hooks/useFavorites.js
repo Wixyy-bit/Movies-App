@@ -15,7 +15,7 @@ export const useFavorites = () => {
 
   const addFavorite = async (movie) => {
 
-    await api.post("/favorites",{
+    await api.post("/api/favorites",{
       movieId: movie.id,
       title: movie.title,
       poster: movie.poster_path
