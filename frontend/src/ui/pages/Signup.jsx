@@ -15,7 +15,7 @@ function Signup(){
 
     e.preventDefault()
 
-    await api.post("/auth/register",{
+    await api.post("/api/auth/register",{
       name,
       email,
       password

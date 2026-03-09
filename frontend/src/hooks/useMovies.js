@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux"
 import { setTrendingMovies } from "../state/slices/movieSlice"
 
-const API_KEY = "YOUR_TMDB_KEY"
+const API_KEY = "c58f21dbd250fe5ca73f83736cfb274d"
 
 export const useMovies = () => {
 

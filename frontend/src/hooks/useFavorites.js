@@ -7,7 +7,7 @@ export const useFavorites = () => {
 
   const fetchFavorites = async () => {
 
-    const res = await api.get("/favorites")
+    const res = await api.get("/api/favorites")
 
     setFavorites(res.data)
 
@@ -26,7 +26,7 @@ export const useFavorites = () => {
 
   const removeFavorite = async (movieId) => {
 
-    await api.delete(`/favorites/${movieId}`)
+    await api.delete(`/api/favorites/${movieId}`)
 
     fetchFavorites()
   }

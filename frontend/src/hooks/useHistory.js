@@ -4,7 +4,7 @@ export const useHistory = () => {
 
   const addHistory = async (movie) => {
 
-    await api.post("/history",{
+    await api.post("/api/history",{
       movieId: movie.id,
       title: movie.title,
       poster: movie.poster_path
@@ -14,7 +14,7 @@ export const useHistory = () => {
 
   const getHistory = async () => {
 
-    const res = await api.get("/history")
+    const res = await api.get("/api/history")
 
     return res.data
 
