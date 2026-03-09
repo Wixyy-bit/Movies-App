@@ -1,0 +1,119 @@
+.details-container{
+color:white;
+min-height:92.8vh;
+position:relative;
+/* margin-top: 2rem; */
+padding: 2rem;
+}
+
+.backdrop{
+position:absolute;
+top:0;
+left:0;
+right:0;
+height:100%;
+background-size:cover;
+background-position:center;
+filter:brightness(0.4);
+}
+
+.details-content{
+position:relative;
+display:flex;
+gap:40px;
+padding-bottom: 2rem;
+}
+
+.poster{
+width:260px;
+border-radius:10px;
+box-shadow:0 10px 30px rgba(0,0,0,0.7);
+}
+
+.info{
+max-width:700px;
+}
+
+.info h1{
+font-size:40px;
+margin-bottom:10px;
+}
+
+.meta{
+color:#ccc;
+margin-bottom:10px;
+}
+
+.meta span{
+margin-left:15px;
+}
+
+.genres span{
+background:#222;
+padding:4px 10px;
+margin-right:8px;
+border-radius:6px;
+font-size:13px;
+}
+
+.overview{
+margin-top:20px;
+line-height:1.6;
+color:#ddd;
+font-size: 1.1rem;
+}
+
+.buttons{
+margin-top:25px;
+display:flex;
+gap:15px;
+}
+
+.play-btn{
+background:#e50914;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+.fav-btn{
+background:#222;
+border:none;
+padding:10px 20px;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+
+
+.trailer-modal{
+position:fixed;
+top:0;
+left:0;
+right:0;
+bottom:0;
+background:rgba(0,0,0,0.85);
+display:flex;
+justify-content:center;
+align-items:center;
+z-index:1000;
+}
+
+.trailer-content{
+position:relative;
+}
+
+.close-btn{
+position:absolute;
+top:-40px;
+right:0;
+background:#e50914;
+border:none;
+color:white;
+padding:8px 12px;
+cursor:pointer;
+border-radius:4px;
+}

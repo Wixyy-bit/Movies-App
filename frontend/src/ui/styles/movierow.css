@@ -1,0 +1,21 @@
+.movie-row{
+padding-left:20px;
+overflow-x: auto;
+}
+
+.movie-row h2{
+color:white;
+margin:10px;
+margin-top: 50px;
+}
+
+.row-posters{
+display:flex;
+gap:15px;
+overflow-x:auto;
+padding-bottom:10px;
+}
+
+.row-posters::-webkit-scrollbar{
+display:none;
+}
