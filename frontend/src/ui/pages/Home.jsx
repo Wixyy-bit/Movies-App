@@ -152,7 +152,7 @@ function Home() {
 
             {/* MOVIE GRID */}
 
-            
+
             <h2 id="explore">Explore All </h2>
             <div className="movie-grid">
 
